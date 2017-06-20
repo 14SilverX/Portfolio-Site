@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" type="text/css" href="style.css" title="style-sheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	
+  <head>
+    <title>Alexander's Portfolio</title>
+    <link rel="shortcut icon" href="Images/PDX_logo.png" type="image/png">
+    <meta charset="utf-8">
+  </head>
+  
+  <div class="container">
+  <body>
+  	<header>
+    <h1>Alexander's Portfolio</h1>
+    </header>
+    
+    <div id="tabs"><span>
+    	<a href="portfolio.html" style="text-decoration: none">Portfolio</a> |
+    	<a href="About.html" style="text-decoration: none">About Me</a> |
+    	<a href="Contact.html" style="text-decoration: none">Contact</a>
+    </span>
+    </div>
+    
+    <article class="homepage"><center>
+    	<a href="TCG.html" style="text-decoration: none"><p class="portPiece" id="theconduitsgarden">
+    		<img src="Images/the_conduits_garden_thumbnail.png" alt="The Conduit's Garden" width="150" height="150" style="float: left">
+    		<span class="portTitetext">The Conduit's Garden</span>
+    		<span class="portDisctext">
+    			<br><br> A Fourth-Dimensional VR Game where you play the role of a spiritual conduit tending to a fourth-dimensional Shinto garden to restore the balance between the spirits and the garden.
+    		</span>
+    	</p></a>
+    	<a href="FSA.html" style="text-decoration: none"><p class="portPiece" id="fsa">
+    		<img src="Images/FSA_thumbnail.png" alt="Full Scale Attack" width="150" height="150" style="float: left">
+    		<span class="portTitetext">Full Scale Attack</span>
+    		<span class="portDisctext">
+    			<br><br>An educational music game that teaches players the musical scales as they blast their way through waves of enemy star ships.
+    		</span>
+    	</p></a>
+    	<a href="SavSam.html" style="text-decoration: none"><p class="portPiece" id="ss">
+    		<img src="Images/savage_sam_thumbnail.png" alt="Savage Sam" width="150" height="150" style="float: left">
+    		<span class="portTitetext">Savage Sam</span>
+    		<span class="portDisctext">
+    			<br><br>A 2D action sidescroller where you help Savage Sam chase down the school bus after he wakes up late for school.
+    		</span>
+    	</p></a>
+    	<a href="FIVEMIN.html" style="text-decoration: none"><p class="portPiece" id="5M">
+    		<img src="Images/5M_thumbnail.png" alt="5 Minutes" width="150" height="150" style="float: left">
+    		<span class="portTitetext">5 Minutes</span>
+    		<span class="portDisctext">
+    			<br><br>A detective game where you only have 5 minutes to save an unknown target from an unknown killer.
+    		</span>
+    	</p></a>
+    </center></article>
+    
+    <script>
+    	var TCG = document.getElementById("theconduitsgarden");
+    	var FSA = document.getElementById("fsa");
+    	var SS = document.getElementById("ss");
+    	var FIVEMIN = document.getElementById("5M");
+    	
+    	TCG.addEventListener("mouseover", function(){
+    		TCG.setAttribute("style", "background-color: rgb(69,14,116)");
+    	}, false);
+    	TCG.addEventListener("mouseout", function(){
+    		TCG.setAttribute("style", "background-color: rgb(64,61,60)");
+    	}, false);
+    	
+    	FSA.addEventListener("mouseover", function(){
+    		FSA.setAttribute("style", "background-color: rgb(69,14,116)");
+    	}, false);
+    	FSA.addEventListener("mouseout", function(){
+    		FSA.setAttribute("style", "background-color: rgb(64,61,60)");
+    	}, false);
+    	
+    	SS.addEventListener("mouseover", function(){
+    		SS.setAttribute("style", "background-color: rgb(69,14,116)");
+    	}, false);
+    	SS.addEventListener("mouseout", function(){
+    		SS.setAttribute("style", "background-color: rgb(64,61,60)");
+    	}, false);
+    	
+    	FIVEMIN.addEventListener("mouseover", function(){
+    		FIVEMIN.setAttribute("style", "background-color: rgb(69,14,116)");
+    	}, false);
+    	FIVEMIN.addEventListener("mouseout", function(){
+    		FIVEMIN.setAttribute("style", "background-color: rgb(64,61,60)");
+    	}, false);
+    </script>
+    
+    <footer>
+    	<div>Fun Fact! I coded this entire site from scratch using HTML!</div>
+    	<div>&#xA9;2017 Alexander Guerra</div>
+    </footer>
+  </body>
+  </div>
+</html>

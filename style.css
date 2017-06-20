@@ -1,0 +1,95 @@
+.container {
+    width: 100%;
+    border: 2px solid rgb(69, 111, 116);
+    background-color: rgb(64,61,60);
+}
+
+#tabs{
+    font-style: initial;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(235, 85, 55);
+    text-align: center;
+    font-size: 2ex;
+    padding: 5px;
+}
+
+.announcements{
+    float: left;
+    max-width: 300px;
+    margin: 0;
+    padding: 1em;
+    border: 1px solid rgb(235, 85, 55);
+    max-height: 758px;
+    overflow-y: auto;
+    color: black;
+
+}
+
+.homepage{
+    border: 2px solid rgb(69, 111, 116);
+    padding: 1em;
+    overflow: hidden;
+}
+
+.portPiece{
+    
+    color: rgb(211,203,189);
+    padding: 2px;
+    overflow: hidden;
+    width: 700px;
+}
+
+.largetext{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(211,203,189);
+    font-size: 120%;
+}
+
+.largertext{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(211,203,189);
+    font-size: 160%;
+}
+
+.portTitetext{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(211,203,189);
+    font-size: 150%;
+    text-align: right;
+}
+
+.portDisctext{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(211,203,189);
+    font-size: 100%;
+    text-align: right;
+}
+
+.silverback{
+    color: rgb(147,0,0);
+    background-color: rgb(200,200,200);
+}
+
+header, footer {
+	font-family: 'Ubuntu', sans-serif;
+    padding: 1em;
+    color: rgb(211,203,189);
+    background-color: rgb(28,25,25);
+    clear: left;
+    text-align: center;
+}
+
+.announce_new_date{
+    font-style: bold;
+    color: rgb(255, 0, 0);
+}
+
+.announce_date{
+    font-style: bold;
+    color: rgb(0, 0, 0);
+}
+
+.announce_text{
+    font-style: none;
+    color: rgb(0, 0, 0);
+}
